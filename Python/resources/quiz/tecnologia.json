@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "Qual fabricante fornece as baterias para os carros da Fórmula E desde a temporada 2018-19?",
+      "options": [
+        "Williams Advanced Engineering",
+        "McLaren Applied Technologies",
+        "Bosch",
+        "Atieva"
+      ],
+      "correct_answer": "McLaren Applied Technologies"
+    },
+    {
+      "question": "Qual é a capacidade de armazenamento das baterias usadas nos carros Gen2 da Fórmula E?",
+      "options": [
+        "45 kWh",
+        "50 kWh",
+        "54 kWh",
+        "60 kWh"
+      ],
+      "correct_answer": "54 kWh"
+    },
+    {
+      "question": "Qual é a potência máxima que os carros da Fórmula E podem alcançar em 'Attack Mode'?",
+      "options": [
+        "200 kW",
+        "225 kW",
+        "250 kW",
+        "275 kW"
+      ],
+      "correct_answer": "250 kW"
+    },
+    {
+      "question": "Qual é a velocidade máxima que os carros Gen2 da Fórmula E podem atingir?",
+      "options": [
+        "220 km/h",
+        "240 km/h",
+        "280 km/h",
+        "300 km/h"
+      ],
+      "correct_answer": "280 km/h"
+    },
+    {
+      "question": "Qual fabricante foi o primeiro a vencer uma corrida na Fórmula E com um motor duplo?",
+      "options": [
+        "Audi",
+        "Nissan",
+        "Jaguar",
+        "Mahindra"
+      ],
+      "correct_answer": "Nissan"
+    },
+    {
+      "question": "Qual é a duração média de uma corrida de Fórmula E?",
+      "options": [
+        "30 minutos",
+        "45 minutos",
+        "60 minutos",
+        "90 minutos"
+      ],
+      "correct_answer": "45 minutos"
+    },
+    {
+      "question": "Qual foi a primeira temporada a utilizar o novo formato de qualificação com grupos e superpole?",
+      "options": [
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20"
+      ],
+      "correct_answer": "2016-17"
+    },
+    {
+      "question": "Qual é o nome do sistema de frenagem regenerativa usado nos carros da Fórmula E?",
+      "options": [
+        "e-Brake",
+        "Regen-Brake",
+        "KERS",
+        "RBS"
+      ],
+      "correct_answer": "RBS"
+    },
+    {
+      "question": "Qual fabricante de pneus fornece os pneus usados na Fórmula E?",
+      "options": [
+        "Michelin",
+        "Pirelli",
+        "Bridgestone",
+        "Goodyear"
+      ],
+      "correct_answer": "Michelin"
+    },
+    {
+      "question": "Quantos motores elétricos são permitidos por carro na temporada 2020-21?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "1"
+    }
+  ]
+}

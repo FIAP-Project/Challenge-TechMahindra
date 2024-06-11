@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "Qual foi a primeira equipe a utilizar o sistema de 'FanBoost' para vencer uma corrida?",
+      "options": [
+        "Audi Sport ABT",
+        "DS Techeetah",
+        "Renault e.dams",
+        "Mahindra Racing"
+      ],
+      "correct_answer": "Audi Sport ABT"
+    },
+    {
+      "question": "Qual cidade sediou o primeiro E-Prix da América do Sul?",
+      "options": [
+        "Buenos Aires",
+        "Santiago",
+        "São Paulo",
+        "Montevidéu"
+      ],
+      "correct_answer": "Buenos Aires"
+    },
+    {
+      "question": "Qual equipe foi a primeira a conquistar 3 campeonatos de equipes consecutivos na Fórmula E?",
+      "options": [
+        "Renault e.dams",
+        "DS Techeetah",
+        "Audi Sport ABT",
+        "Envision Virgin Racing"
+      ],
+      "correct_answer": "Renault e.dams"
+    },
+    {
+      "question": "Qual piloto é conhecido como o 'Mr. Consistency' na Fórmula E?",
+      "options": [
+        "Sébastien Buemi",
+        "Lucas di Grassi",
+        "Sam Bird",
+        "Jean-Éric Vergne"
+      ],
+      "correct_answer": "Lucas di Grassi"
+    },
+    {
+      "question": "Quantas zonas de ativação de 'Attack Mode' existem tipicamente em uma pista de Fórmula E?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "1"
+    },
+    {
+      "question": "Qual é a distância média de um E-Prix da Fórmula E?",
+      "options": [
+        "50 km",
+        "80 km",
+        "100 km",
+        "120 km"
+      ],
+      "correct_answer": "80 km"
+    },
+    {
+      "question": "Em qual temporada foi introduzido o 'Attack Mode' na Fórmula E?",
+      "options": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "correct_answer": "2018-19"
+    },
+    {
+      "question": "Qual cidade sediou a final da temporada 2018-19 da Fórmula E?",
+      "options": [
+        "Nova York",
+        "Londres",
+        "Paris",
+        "Pequim"
+      ],
+      "correct_answer": "Nova York"
+    },
+    {
+      "question": "Qual piloto fez a primeira volta mais rápida em uma corrida de Fórmula E?",
+      "options": [
+        "Nicolas Prost",
+        "Nick Heidfeld",
+        "Jerome d'Ambrosio",
+        "Bruno Senna"
+      ],
+      "correct_answer": "Nicolas Prost"
+    },
+    {
+      "question": "Qual é o nome da pista usada no E-Prix de Roma?",
+      "options": [
+        "Circuito Cittadino dell'EUR",
+        "Circuito di Monza",
+        "Autodromo Vallelunga",
+        "Circuito de Mugello"
+      ],
+      "correct_answer": "Circuito Cittadino dell'EUR"
+    }
+  ]
+}
