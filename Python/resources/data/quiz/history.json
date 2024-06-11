@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "quiz.history.q1",
+      "options": [
+        "quiz.history.q1.opt1",
+        "quiz.history.q1.opt2",
+        "quiz.history.q1.opt3",
+        "quiz.history.q1.opt4"
+      ],
+      "correct_answer": "quiz.history.q1.opt3"
+    },
+    {
+      "question": "quiz.history.q2",
+      "options": [
+        "quiz.history.q2.opt1",
+        "quiz.history.q2.opt2",
+        "quiz.history.q2.opt3",
+        "quiz.history.q2.opt4"
+      ],
+      "correct_answer": "quiz.history.q2.opt1"
+    },
+    {
+      "question": "quiz.history.q3",
+      "options": [
+        "quiz.history.q3.opt1",
+        "quiz.history.q3.opt2",
+        "quiz.history.q3.opt3",
+        "quiz.history.q3.opt4"
+      ],
+      "correct_answer": "quiz.history.q3.opt4"
+    },
+    {
+      "question": "quiz.history.q4",
+      "options": [
+        "quiz.history.q4.opt1",
+        "quiz.history.q4.opt2",
+        "quiz.history.q4.opt3",
+        "quiz.history.q4.opt4"
+      ],
+      "correct_answer": "quiz.history.q4.opt2"
+    },
+    {
+      "question": "quiz.history.q5",
+      "options": [
+        "quiz.history.q5.opt1",
+        "quiz.history.q5.opt2",
+        "quiz.history.q5.opt3",
+        "quiz.history.q5.opt4"
+      ],
+      "correct_answer": "quiz.history.q5.opt3"
+    },
+    {
+      "question": "quiz.history.q6",
+      "options": [
+        "quiz.history.q6.opt1",
+        "quiz.history.q6.opt2",
+        "quiz.history.q6.opt3",
+        "quiz.history.q6.opt4"
+      ],
+      "correct_answer": "quiz.history.q6.opt1"
+    },
+    {
+      "question": "quiz.history.q7",
+      "options": [
+        "quiz.history.q7.opt1",
+        "quiz.history.q7.opt2",
+        "quiz.history.q7.opt3",
+        "quiz.history.q7.opt4"
+      ],
+      "correct_answer": "quiz.history.q7.opt4"
+    },
+    {
+      "question": "quiz.history.q8",
+      "options": [
+        "quiz.history.q8.opt1",
+        "quiz.history.q8.opt2",
+        "quiz.history.q8.opt3",
+        "quiz.history.q8.opt4"
+      ],
+      "correct_answer": "quiz.history.q8.opt2"
+    },
+    {
+      "question": "quiz.history.q9",
+      "options": [
+        "quiz.history.q9.opt1",
+        "quiz.history.q9.opt2",
+        "quiz.history.q9.opt3",
+        "quiz.history.q9.opt4"
+      ],
+      "correct_answer": "quiz.history.q9.opt3"
+    },
+    {
+      "question": "quiz.history.q10",
+      "options": [
+        "quiz.history.q10.opt1",
+        "quiz.history.q10.opt2",
+        "quiz.history.q10.opt3",
+        "quiz.history.q10.opt4"
+      ],
+      "correct_answer": "quiz.history.q10.opt1"
+    }
+  ]
+}
