@@ -1,4 +1,15 @@
 {
+  "quiz.language.select": "Selecione uma linguagem para jogar:",
+  "quiz.topic.select": "Selecione um tópico para jogar: ",
+
+  "quiz.wrong.number.selection": "Por favor, utilize apenas números e valores entre",
+
+  "quiz.topic.circuit": "circuito",
+  "quiz.topic.curiosities": "curiosidades",
+  "quiz.topic.drivers": "pilotos",
+  "quiz.topic.history": "história",
+  "quiz.topic.technologies": "tecnologias",
+
   "quiz.circuit.q1": "Qual circuito sediou a final da temporada inaugural da Fórmula E?",
   "quiz.circuit.q1.opt1": "Battersea Park",
   "quiz.circuit.q1.opt2": "Tempelhof Airport",

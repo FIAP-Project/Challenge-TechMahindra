@@ -1,4 +1,15 @@
 {
+  "quiz.language.select": "Select a language to play: ",
+  "quiz.topic.select": "Select a topic to play: ",
+
+  "quiz.wrong.number.selection": "Please use only numbers and values from",
+
+  "quiz.topic.circuit": "circuit",
+  "quiz.topic.curiosities": "curiosities",
+  "quiz.topic.drivers": "drivers",
+  "quiz.topic.history": "history",
+  "quiz.topic.technologies": "technologies",
+
   "quiz.circuit.q1": "Which circuit hosted the final race of the inaugural Formula E season?",
   "quiz.circuit.q1.opt1": "Battersea Park",
   "quiz.circuit.q1.opt2": "Tempelhof Airport",
