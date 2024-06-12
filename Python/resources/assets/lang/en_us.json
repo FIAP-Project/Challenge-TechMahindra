@@ -2,7 +2,7 @@
   "quiz.language.select": "Select a language to play: ",
   "quiz.topic.select": "Select a topic to play: ",
 
-  "quiz.wrong.number.selection": "Please use only numbers and values from",
+  "quiz.wrong.number.selection": "Please use only numbers and values ranged between",
 
   "quiz.topic.circuit": "circuit",
   "quiz.topic.curiosities": "curiosities",
