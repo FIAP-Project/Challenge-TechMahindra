@@ -7,6 +7,11 @@
   "quiz.question.answer": "Sua resposta para {} (1, 2, 3, or 4): ",
   "quiz.correct.answers.amount": "Voce acertou {} de {} questões corretamente.",
 
+  "quiz.answer.correct": "Resposta Correta",
+  "quiz.answer.wrong": "Resposta Errada",
+  "quiz.lives.remaining": "Vidas restantes: {}",
+  "quiz.game.over": "Fim de Jogo! Você usou todas as suas vidas.",
+
   "quiz.topic.circuit": "circuito",
   "quiz.topic.curiosities": "curiosidades",
   "quiz.topic.drivers": "pilotos",

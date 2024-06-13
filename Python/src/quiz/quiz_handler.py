@@ -2,7 +2,7 @@ import json
 import random
 
 from Python.src.quiz.language_handler import get_quiz_translation, get_translatable
-from Python.src.util.print_utils import print_error
+from Python.src.util.print_utils import print_error, print_success
 from Python.src.util.constants import ROOT_DIR
 
 
@@ -59,3 +59,13 @@ def check_answer(question: dict, user_answer: int) -> bool:
     correct_answer = question['correct_answer']
     correct_option_index = question['options'].index(correct_answer) + 1
     return user_answer == correct_option_index
+
+
+def print_feedback(is_correct: bool, lives: int, language: str) -> None:
+    if is_correct:
+        print_success(get_translatable('quiz.answer.correct', language))
+    else:
+        print_error(get_translatable('quiz.answer.wrong', language))
+
+    print(get_translatable('quiz.lives.remaining', language).format(lives))
+    print()

@@ -5,7 +5,8 @@ from quiz.quiz_handler import (
     randomize_quiz,
     print_question,
     get_user_answer,
-    check_answer
+    check_answer,
+    print_feedback
 )
 
 
@@ -23,12 +24,27 @@ def run_quiz():
 
 def conduct_quiz(quiz_questions, language):
     correct_answers = 0
+    lives = 3
+
     for index, question in enumerate(quiz_questions):
+        if lives == 0:
+            print_feedback(False, lives, language)
+            break
+
         print_question(question, index)
         user_answer = get_user_answer(index, language)
 
         if check_answer(question, user_answer):
             correct_answers += 1
+            print_feedback(True, lives, language)
+        else:
+            lives -= 1
+            print_feedback(False, lives, language)
+
+    if lives > 0:
+        print_result(correct_answers, len(quiz_questions), language)
+    else:
+        print(game_over_message(language))
 
     return correct_answers
 
@@ -36,6 +52,10 @@ def conduct_quiz(quiz_questions, language):
 def print_result(correct_answers, total_questions, language):
     result_message = get_translatable('quiz.correct.answers.amount', language)
     print(result_message.format(correct_answers, total_questions))
+
+
+def game_over_message(language):
+    return get_translatable('quiz.game.over', language)
 
 
 if __name__ == "__main__":
