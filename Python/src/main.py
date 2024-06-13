@@ -1,26 +1,42 @@
-from Python.src.util import print_utils
-from quiz import language_handler
-from quiz import topic_handler
-from quiz import quiz_handler
+from quiz.language_handler import get_language, get_translatable
+from quiz.topic_handler import get_topic
+from quiz.quiz_handler import (
+    load_quiz,
+    randomize_quiz,
+    print_question,
+    get_user_answer,
+    check_answer
+)
 
 
-def main():
-    language: str = language_handler.get_language()
-    topic: str = topic_handler.get_topic(language)
+def run_quiz():
+    language = get_language()
+    topic = get_topic(language)
 
-    quiz: dict = quiz_handler.load_quiz(topic, language)
-    quiz = quiz_handler.randomize_quiz(quiz['quiz'])
+    quiz_data = load_quiz(topic, language)
+    quiz_questions = randomize_quiz(quiz_data['quiz'])
 
-    correct_count = 0
-    for i, q in enumerate(quiz):
-        quiz_handler.print_question(q, i)
-        user_answer = quiz_handler.get_user_answer(i)
+    correct_answers = conduct_quiz(quiz_questions, language)
 
-        if quiz_handler.check_answer(q, user_answer):
-            correct_count += 1
+    print_result(correct_answers, len(quiz_questions), language)
 
-    print(language_handler.get_translatable('quiz.correct.answers.amount', language).format(correct_count, len(quiz)))
+
+def conduct_quiz(quiz_questions, language):
+    correct_answers = 0
+    for index, question in enumerate(quiz_questions):
+        print_question(question, index)
+        user_answer = get_user_answer(index, language)
+
+        if check_answer(question, user_answer):
+            correct_answers += 1
+
+    return correct_answers
+
+
+def print_result(correct_answers, total_questions, language):
+    result_message = get_translatable('quiz.correct.answers.amount', language)
+    print(result_message.format(correct_answers, total_questions))
 
 
 if __name__ == "__main__":
-    main()
+    run_quiz()

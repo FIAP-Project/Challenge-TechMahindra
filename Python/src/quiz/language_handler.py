@@ -1,34 +1,22 @@
 import json
 import locale
-
 from Python.src.util.constants import ROOT_DIR
-from Python.src.util import print_utils
+from Python.src.util.print_utils import print_error
 
 LANGUAGES = {
     0: 'en_us',
     1: 'pt_br'
 }
 
-_selected_language: str = ''
 
+def get_language() -> str:
+    system_language = get_system_language()
+    selected_language = system_language if system_language in LANGUAGES.values() else 'en_us'
 
-def get_language():
-    global _selected_language
+    for k, v in LANGUAGES.items():
+        print(f'{k}: {v}')
 
-    if _selected_language == '':
-        system_language: str = get_system_language()
-
-        if system_language in LANGUAGES.values():
-            _selected_language = system_language
-        else:
-            _selected_language = 'en_us'
-
-        for k, v in LANGUAGES.items():
-            print(f'{k}: {v}')
-
-        _selected_language = _ask_language_to_play()
-
-    return _selected_language
+    return ask_language_to_play(selected_language)
 
 
 def get_system_language() -> str:
@@ -36,33 +24,28 @@ def get_system_language() -> str:
     return default_locale.lower()
 
 
-def _ask_language_to_play():
+def ask_language_to_play(language: str) -> str:
     while True:
-        answer: str = input(get_translatable('quiz.language.select'))
+        answer = input(get_translatable('quiz.language.select', language))
         print()
 
-        if _valid_answer(answer):
+        if valid_answer(answer, language):
             return LANGUAGES[int(answer)]
 
 
-def _valid_answer(answer: str) -> bool:
+def valid_answer(answer: str, language: str) -> bool:
     try:
         num_answer = int(answer)
         if num_answer > len(LANGUAGES) - 1:
-            print_utils.print_error(f'{get_translatable("quiz.wrong.number.selection")} 0~{len(LANGUAGES) - 1}')
-
+            print_error(f'{get_translatable("quiz.wrong.number.selection", language)} 0~{len(LANGUAGES) - 1}')
         return num_answer in LANGUAGES
-
     except ValueError:
-        print_utils.print_error(f'{get_translatable("quiz.wrong.number.selection")} 0~{len(LANGUAGES) - 1}')
+        print_error(f'{get_translatable("quiz.wrong.number.selection", language)} 0~{len(LANGUAGES) - 1}')
         return False
 
 
-def get_translatable(key: str, language: str = '') -> str:
-    if language != '':
-        return get_quiz_translation(language)[key]
-
-    return get_quiz_translation(_selected_language)[key]
+def get_translatable(key: str, language: str) -> str:
+    return get_quiz_translation(language).get(key, '')
 
 
 def get_quiz_translation(language: str) -> dict:

@@ -1,8 +1,6 @@
+def print_error(message: str) -> None:
+    print(f'\033[31m{message}\033[m')
 
 
-def print_error(arg: any):
-    print(f'\033[31m{arg}\033[m')
-
-
-def print_success(arg: any):
-    print(f'\033[32m{arg}\033[m')
+def print_success(message: str) -> None:
+    print(f'\033[32m{message}\033[m')
