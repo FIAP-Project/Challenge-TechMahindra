@@ -4,6 +4,9 @@
 
   "quiz.wrong.number.selection": "Por favor, utilize apenas números e valores entre",
 
+  "quiz.question.answer": "Sua resposta para {} (1, 2, 3, or 4): ",
+  "quiz.correct.answers.amount": "Voce acertou {} de {} questões corretamente.",
+
   "quiz.topic.circuit": "circuito",
   "quiz.topic.curiosities": "curiosidades",
   "quiz.topic.drivers": "pilotos",

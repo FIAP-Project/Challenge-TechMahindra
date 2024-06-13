@@ -4,6 +4,9 @@
 
   "quiz.wrong.number.selection": "Please use only numbers and values ranged between",
 
+  "quiz.question.answer": "Your answer for {} (1, 2, 3, or 4): ",
+  "quiz.correct.answers.amount": "You got {} out of {} questions correct.",
+
   "quiz.topic.circuit": "circuit",
   "quiz.topic.curiosities": "curiosities",
   "quiz.topic.drivers": "drivers",
