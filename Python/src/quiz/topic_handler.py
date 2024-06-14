@@ -1,13 +1,18 @@
 from Python.src.quiz.language_handler import get_translatable
+from Python.src.util.constants import ROOT_DIR
 from Python.src.util.print_utils import print_error
 
-TOPICS = {
-    0: 'circuit',
-    1: 'curiosities',
-    2: 'drivers',
-    3: 'history',
-    4: 'technologies'
-}
+TOPICS = {}
+
+
+def load_topics():
+    lang_dir = ROOT_DIR / 'resources' / 'data' / 'quiz'
+    for index, topic_file in enumerate(lang_dir.glob('*.json')):
+        topic_name = topic_file.stem
+        TOPICS[index] = topic_name
+
+
+load_topics()
 
 
 def get_topic(language: str) -> str:
