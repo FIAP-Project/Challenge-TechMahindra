@@ -11,6 +11,7 @@
   "quiz.answer.wrong": "Resposta Errada",
   "quiz.lives.remaining": "Vidas restantes: {}",
   "quiz.game.over": "Fim de Jogo! Você usou todas as suas vidas.",
+  "quiz.play.again": "Você quer jogar novamente? [S/N] ",
 
   "quiz.topic.circuit": "circuito",
   "quiz.topic.curiosities": "curiosidades",

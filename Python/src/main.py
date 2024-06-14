@@ -12,14 +12,21 @@ from quiz.quiz_handler import (
 
 def run_quiz():
     language = get_language()
-    topic = get_topic(language)
 
-    quiz_data = load_quiz(topic, language)
-    quiz_questions = randomize_quiz(quiz_data['quiz'])
+    while True:
+        topic = get_topic(language)
 
-    correct_answers = conduct_quiz(quiz_questions, language)
+        quiz_data = load_quiz(topic, language)
+        quiz_questions = randomize_quiz(quiz_data['quiz'])
 
-    print_result(correct_answers, len(quiz_questions), language)
+        correct_answers = conduct_quiz(quiz_questions, language)
+
+        print_result(correct_answers, len(quiz_questions), language)
+
+        if play_again(language):
+            continue
+        else:
+            break
 
 
 def conduct_quiz(quiz_questions, language):
@@ -27,10 +34,6 @@ def conduct_quiz(quiz_questions, language):
     lives = 3
 
     for index, question in enumerate(quiz_questions):
-        if lives == 0:
-            print_feedback(False, lives, language)
-            break
-
         print_question(question, index)
         user_answer = get_user_answer(index, language)
 
@@ -40,6 +43,9 @@ def conduct_quiz(quiz_questions, language):
         else:
             lives -= 1
             print_feedback(False, lives, language)
+
+            if lives == 0:
+                break
 
     if lives > 0:
         print_result(correct_answers, len(quiz_questions), language)
@@ -52,10 +58,26 @@ def conduct_quiz(quiz_questions, language):
 def print_result(correct_answers, total_questions, language):
     result_message = get_translatable('quiz.correct.answers.amount', language)
     print(result_message.format(correct_answers, total_questions))
+    print()
 
 
 def game_over_message(language):
     return get_translatable('quiz.game.over', language)
+
+
+def play_again(language: str) -> bool:
+    while True:
+        answer = input(get_translatable('quiz.play.again', language))
+
+        if answer == '':
+            continue
+        elif answer in 'Ss':
+            print()
+            return True
+        elif answer in 'Nn':
+            return False
+        else:
+            continue
 
 
 if __name__ == "__main__":

@@ -11,6 +11,7 @@
   "quiz.answer.wrong": "Wrong Answer",
   "quiz.lives.remaining": "Lives remaining: {}",
   "quiz.game.over": "Game Over! You have used all your lives.",
+  "quiz.play.again": "Do you want to play again? [S/N] ",
 
   "quiz.topic.circuit": "circuit",
   "quiz.topic.curiosities": "curiosities",
