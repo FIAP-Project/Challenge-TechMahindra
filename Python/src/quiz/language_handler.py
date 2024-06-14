@@ -3,10 +3,17 @@ import locale
 from Python.src.util.constants import ROOT_DIR
 from Python.src.util.print_utils import print_error
 
-LANGUAGES = {
-    0: 'en_us',
-    1: 'pt_br'
-}
+LANGUAGES = {}
+
+
+def load_languages():
+    lang_dir = ROOT_DIR / 'resources' / 'assets' / 'lang'
+    for index, lang_file in enumerate(lang_dir.glob('*.json')):
+        lang_name = lang_file.stem
+        LANGUAGES[index] = lang_name
+
+
+load_languages()
 
 
 def get_language() -> str:
