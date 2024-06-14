@@ -19,9 +19,7 @@ def run_quiz():
         quiz_data = load_quiz(topic, language)
         quiz_questions = randomize_quiz(quiz_data['quiz'])
 
-        correct_answers = conduct_quiz(quiz_questions, language)
-
-        print_result(correct_answers, len(quiz_questions), language)
+        conduct_quiz(quiz_questions, language)
 
         if play_again(language):
             continue
@@ -47,12 +45,10 @@ def conduct_quiz(quiz_questions, language):
             if lives == 0:
                 break
 
-    if lives > 0:
-        print_result(correct_answers, len(quiz_questions), language)
-    else:
+    if lives == 0:
         print(game_over_message(language))
 
-    return correct_answers
+    print_result(correct_answers, len(quiz_questions), language)
 
 
 def print_result(correct_answers, total_questions, language):
