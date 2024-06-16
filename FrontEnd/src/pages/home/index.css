@@ -1,0 +1,46 @@
+:root {
+    --heading-font: 3.5rem;
+    --body-font: 1.8rem;
+
+    --nav-color: #019DCB;
+}
+
+header {
+    position: relative;
+    background: url('/FrontEnd/public/assets/images/header_background.png') no-repeat center center/cover;
+
+    padding-top: 30px;
+    min-height: 940px;
+}
+
+header img {
+    margin-top: 150px;
+    margin-left: 150px;
+    max-width: 700px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+    width: 100%;
+
+    list-style: none;
+}
+
+nav ul li .line {
+    width: 2px;
+    height: 16px;
+
+    background-color: var(--nav-color);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--nav-color);
+
+    font-size: var(--body-font);
+    font-weight: bold;
+}
