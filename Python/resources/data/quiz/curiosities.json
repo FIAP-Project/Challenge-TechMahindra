@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "quiz.curiosities.q1",
+      "options": [
+        "quiz.curiosities.q1.opt1",
+        "quiz.curiosities.q1.opt2",
+        "quiz.curiosities.q1.opt3",
+        "quiz.curiosities.q1.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q1.opt3"
+    },
+    {
+      "question": "quiz.curiosities.q2",
+      "options": [
+        "quiz.curiosities.q2.opt1",
+        "quiz.curiosities.q2.opt2",
+        "quiz.curiosities.q2.opt3",
+        "quiz.curiosities.q2.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q2.opt1"
+    },
+    {
+      "question": "quiz.curiosities.q3",
+      "options": [
+        "quiz.curiosities.q3.opt1",
+        "quiz.curiosities.q3.opt2",
+        "quiz.curiosities.q3.opt3",
+        "quiz.curiosities.q3.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q3.opt4"
+    },
+    {
+      "question": "quiz.curiosities.q4",
+      "options": [
+        "quiz.curiosities.q4.opt1",
+        "quiz.curiosities.q4.opt2",
+        "quiz.curiosities.q4.opt3",
+        "quiz.curiosities.q4.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q4.opt2"
+    },
+    {
+      "question": "quiz.curiosities.q5",
+      "options": [
+        "quiz.curiosities.q5.opt1",
+        "quiz.curiosities.q5.opt2",
+        "quiz.curiosities.q5.opt3",
+        "quiz.curiosities.q5.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q5.opt4"
+    },
+    {
+      "question": "quiz.curiosities.q6",
+      "options": [
+        "quiz.curiosities.q6.opt1",
+        "quiz.curiosities.q6.opt2",
+        "quiz.curiosities.q6.opt3",
+        "quiz.curiosities.q6.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q6.opt3"
+    },
+    {
+      "question": "quiz.curiosities.q7",
+      "options": [
+        "quiz.curiosities.q7.opt1",
+        "quiz.curiosities.q7.opt2",
+        "quiz.curiosities.q7.opt3",
+        "quiz.curiosities.q7.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q7.opt4"
+    },
+    {
+      "question": "quiz.curiosities.q8",
+      "options": [
+        "quiz.curiosities.q8.opt1",
+        "quiz.curiosities.q8.opt2",
+        "quiz.curiosities.q8.opt3",
+        "quiz.curiosities.q8.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q8.opt1"
+    },
+    {
+      "question": "quiz.curiosities.q9",
+      "options": [
+        "quiz.curiosities.q9.opt1",
+        "quiz.curiosities.q9.opt2",
+        "quiz.curiosities.q9.opt3",
+        "quiz.curiosities.q9.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q9.opt4"
+    },
+    {
+      "question": "quiz.curiosities.q10",
+      "options": [
+        "quiz.curiosities.q10.opt1",
+        "quiz.curiosities.q10.opt2",
+        "quiz.curiosities.q10.opt3",
+        "quiz.curiosities.q10.opt4"
+      ],
+      "correct_answer": "quiz.curiosities.q10.opt1"
+    }
+  ]
+}

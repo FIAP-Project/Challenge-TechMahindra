@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "quiz.technologies.q1",
+      "options": [
+        "quiz.technologies.q1.opt1",
+        "quiz.technologies.q1.opt2",
+        "quiz.technologies.q1.opt3",
+        "quiz.technologies.q1.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q1.opt3"
+    },
+    {
+      "question": "quiz.technologies.q2",
+      "options": [
+        "quiz.technologies.q2.opt1",
+        "quiz.technologies.q2.opt2",
+        "quiz.technologies.q2.opt3",
+        "quiz.technologies.q2.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q2.opt1"
+    },
+    {
+      "question": "quiz.technologies.q3",
+      "options": [
+        "quiz.technologies.q3.opt1",
+        "quiz.technologies.q3.opt2",
+        "quiz.technologies.q3.opt3",
+        "quiz.technologies.q3.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q3.opt4"
+    },
+    {
+      "question": "quiz.technologies.q4",
+      "options": [
+        "quiz.technologies.q4.opt1",
+        "quiz.technologies.q4.opt2",
+        "quiz.technologies.q4.opt3",
+        "quiz.technologies.q4.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q4.opt2"
+    },
+    {
+      "question": "quiz.technologies.q5",
+      "options": [
+        "quiz.technologies.q5.opt1",
+        "quiz.technologies.q5.opt2",
+        "quiz.technologies.q5.opt3",
+        "quiz.technologies.q5.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q5.opt3"
+    },
+    {
+      "question": "quiz.technologies.q6",
+      "options": [
+        "quiz.technologies.q6.opt1",
+        "quiz.technologies.q6.opt2",
+        "quiz.technologies.q6.opt3",
+        "quiz.technologies.q6.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q6.opt1"
+    },
+    {
+      "question": "quiz.technologies.q7",
+      "options": [
+        "quiz.technologies.q7.opt1",
+        "quiz.technologies.q7.opt2",
+        "quiz.technologies.q7.opt3",
+        "quiz.technologies.q7.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q7.opt2"
+    },
+    {
+      "question": "quiz.technologies.q8",
+      "options": [
+        "quiz.technologies.q8.opt1",
+        "quiz.technologies.q8.opt2",
+        "quiz.technologies.q8.opt3",
+        "quiz.technologies.q8.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q8.opt4"
+    },
+    {
+      "question": "quiz.technologies.q9",
+      "options": [
+        "quiz.technologies.q9.opt1",
+        "quiz.technologies.q9.opt2",
+        "quiz.technologies.q9.opt3",
+        "quiz.technologies.q9.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q9.opt1"
+    },
+    {
+      "question": "quiz.technologies.q10",
+      "options": [
+        "quiz.technologies.q10.opt1",
+        "quiz.technologies.q10.opt2",
+        "quiz.technologies.q10.opt3",
+        "quiz.technologies.q10.opt4"
+      ],
+      "correct_answer": "quiz.technologies.q10.opt3"
+    }
+  ]
+}
