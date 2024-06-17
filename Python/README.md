@@ -73,4 +73,4 @@ Se você tiver uma sugestão para melhorar, faça um fork do repositório e crie
 
 ## Licença
 
-Distribuído sob a licença MIT. Veja LICENSE.md para mais informações.
+Distribuído sob a licença MIT. Veja [LICENSE](https://github.com/FIAP-Project/Challenge-TechMahindra/blob/main/LICENSE) para mais informações.
