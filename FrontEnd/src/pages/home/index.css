@@ -173,3 +173,28 @@ nav ul li a {
     font-size: var(--body-font-size);
     text-align: justify;
 }
+
+.comparation-section {
+    padding: 60px 120px;
+}
+
+.comparation-section h1 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 60px;
+}
+
+.comparation-section .cards {
+    gap: 80px;
+}
+
+.comparation-section .card {
+    background: url('/FrontEnd/public/assets/images/section_background.png') no-repeat center center/cover;
+    color: white;
+    min-height: 480px;
+    justify-content: start;
+}
+
+.big-x {
+    font-size: 120px;
+    font-weight: bold;
+}
