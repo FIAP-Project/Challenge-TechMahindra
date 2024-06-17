@@ -1,8 +1,13 @@
 :root {
-    --heading-font: 3.5rem;
-    --body-font: 1.8rem;
+    --heading-font-size: 3.5rem;
+    --body-font-size: 1.8rem;
 
     --nav-color: #019DCB;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 header {
@@ -15,7 +20,7 @@ header {
 
 header img {
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 125px;
     max-width: 700px;
 }
 
@@ -41,6 +46,76 @@ nav ul li a {
     text-decoration: none;
     color: var(--nav-color);
 
-    font-size: var(--body-font);
+    font-size: var(--body-font-size);
     font-weight: bold;
+}
+
+
+.carousel {
+    position: relative;
+    max-width: 687px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.carousel-item {
+    transition: opacity 0.5s ease;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.problem-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    margin: 60px 125px 0 125px;
+}
+
+.problem-section h1 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 10px;
+}
+
+.problem-section p {
+    text-align: justify;
+    font-size: var(--body-font-size);
+
+    max-width: 816px;
 }
