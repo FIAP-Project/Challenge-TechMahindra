@@ -1,5 +1,6 @@
 :root {
     --heading-font-size: 3.5rem;
+    --subheading-font-size: 3.0rem;
     --body-font-size: 1.8rem;
 
     --nav-color: #019DCB;
@@ -105,7 +106,7 @@ nav ul li a {
     flex-wrap: wrap;
     gap: 50px;
 
-    margin: 60px 125px 0 125px;
+    margin: 60px 125px;
 }
 
 .problem-section h1 {
@@ -118,4 +119,57 @@ nav ul li a {
     font-size: var(--body-font-size);
 
     max-width: 816px;
+}
+
+.solution-section {
+    position: relative;
+    background: url('/FrontEnd/public/assets/images/section_background.png') no-repeat center center/cover;
+    padding: 60px 120px;
+}
+
+.solution-section h1 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 60px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 343px;
+    padding: 20px 20px 40px 20px;
+
+    border-radius: 20px;
+    background-color: #f8f8f8;
+}
+
+.card img {
+    max-width: 350px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 24px 0;
+
+    background-color: white;
+}
+
+.card h2 {
+    font-size: var(--subheading-font-size);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.card p {
+    font-size: var(--body-font-size);
+    text-align: justify;
 }
