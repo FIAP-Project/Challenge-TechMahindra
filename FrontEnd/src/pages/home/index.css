@@ -244,3 +244,9 @@ footer p {
     margin-top: 84px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 832px) {
+    header img {
+        display: none;
+    }
+}
