@@ -17,7 +17,7 @@ Funcionalidades:
 1. Monitoramento de Distância:
 
 - Utiliza o sensor ultrassônico HC-SR04 para medir a distância entre o veículo (ou objeto monitorado) e obstáculos próximos.
-- Quando a distância medida está entre 0 e 20 cm, o buzzer é acionado para indicar proximidade perigosa.
+- Quando a distância medida está entre 0 e 50 cm, o buzzer é acionado para indicar proximidade perigosa, acima disso é uma distância segura.
 
 2. Monitoramento de Aceleração:
 
