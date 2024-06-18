@@ -143,29 +143,23 @@ void loop() {
 
     // Ativa o buzzer
     digitalWrite(buzzerPin, HIGH);
-  } else if (accelMagnitude > accelThresholdRisco) {
-    // Risco de colisão
-    // Limpa o LCD e exibe mensagem de risco de colisão
-    lcd.clear();
-    lcd.setCursor(0, 0);
-    lcd.print("Risco de Colisao!");
-
-    // Desativa o buzzer
-    digitalWrite(buzzerPin, LOW);
-  } else {
+  }  else {
     // Estado seguro
     // Limpa o LCD e exibe mensagem de distância segura
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Distancia Segura");
 
-    // Verifica se a distância medida está entre 0 e 20 cm
-    if (distance >= 0 && distance <= 20) {
-      // Ativa o buzzer indicando proximidade perigosa
+    // Verifica se a distância medida está menor que 20 cm
+    if (distance < 50) {
+      // Exibe "Colisao!" no LCD e ativa o buzzer
+      lcd.clear();
+      lcd.setCursor(0, 0);
+      lcd.print("Risco de colisao");
       digitalWrite(buzzerPin, HIGH);
-    } else {
-      // Desativa o buzzer se estiver fora da distância de perigo
       digitalWrite(buzzerPin, LOW);
+
+    
     }
   }
 
@@ -174,6 +168,6 @@ void loop() {
 ```
 Link Wokwi: 
 
-[https://wokwi.com/projects/400989515779441665]
+[https://wokwi.com/projects/400993835171468289]
 
 
